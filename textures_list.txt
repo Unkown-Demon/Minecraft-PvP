@@ -1,0 +1,56 @@
+# ==============================================================================
+# Zor PvP Arena O'yini uchun Teksturalar Ro'yxati
+# ==============================================================================
+# Foydalanuvchi o'yinni ishga tushirishdan oldin ushbu fayllarni
+# "zor_pvp_game/assets/textures/" papkasiga joylashtirishi kerak.
+# Fayl formati: PNG yoki JPG.
+
+# 1. Kub bloklari uchun asosiy teksturalar
+# (Voxel klassida ishlatilgan)
+# Fayl nomi: grass.png
+# Maqsad: Yer usti bloki (Grass Block)
+#
+# Fayl nomi: dirt.png
+# Maqsad: Yer osti bloki (Dirt Block)
+#
+# Fayl nomi: stone.png
+# Maqsad: Chuqur yer osti bloki (Stone Block)
+#
+# Fayl nomi: brick.png
+# Maqsad: Dushman (Enemy) modeli uchun (Vaqtincha)
+
+# 2. Qurol-yarog'lar uchun teksturalar
+# (Weapon klassida ishlatilgan)
+# Fayl nomi: sword.png
+# Maqsad: Barcha qurollar uchun standart tekstura (Diamond Sword, Healer's Blade)
+
+# 3. UI elementlari (ixtiyoriy, Ursina standartini ishlatish mumkin)
+# Agar siz o'zingizning maxsus UI teksturalaringizni qo'shmoqchi bo'lsangiz:
+# Fayl nomi: health_bar_base.png
+# Fayl nomi: health_bar_fill.png
+# Fayl nomi: cooldown_bar_base.png
+# Fayl nomi: cooldown_bar_fill.png
+
+# ==============================================================================
+# Joylashtirish formati:
+# ==============================================================================
+# 1. "zor_pvp_game" papkasiga o'ting.
+# 2. "assets" nomli yangi papka yarating.
+# 3. "assets" ichida "textures" nomli yangi papka yarating.
+# 4. Yuqoridagi fayllarni (masalan, grass.png, sword.png) "textures" papkasiga joylashtiring.
+#
+# Natijada quyidagi papka tuzilishi hosil bo'lishi kerak:
+# zor_pvp_game/
+# ├── client.py
+# ├── server.py
+# ├── textures_list.txt
+# └── assets/
+#     └── textures/
+#         ├── grass.png
+#         ├── dirt.png
+#         ├── stone.png
+#         ├── brick.png
+#         └── sword.png
+#
+# Eslatma: Agar siz teksturalarni joylashtirmasangiz, Ursina o'zining standart teksturalaridan foydalanadi.
+# O'yinning to'liq Minecraft uslubida bo'lishi uchun yuqoridagi fayllarni joylashtirishingiz tavsiya etiladi.

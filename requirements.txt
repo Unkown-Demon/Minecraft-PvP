@@ -1,0 +1,2 @@
+ursina
+requests # Server/Client aloqasi uchun
